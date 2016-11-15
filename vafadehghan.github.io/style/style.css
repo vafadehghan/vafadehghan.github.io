@@ -1,24 +1,30 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
-
-
 .vafa {
     text-align: center;
     margin-top: 10%;
     text-transform: uppercase;
     font-family: 'Quicksand', sans-serif;
+    color: cornsilk;
+    letter-spacing: 1px;
 }
+
 .icons {
     text-align: center;
     font-size: 45px;
 }
-.icons>a:hover {
+
+a:hover {
     font-size: 50px;
 }
 
-body{
-    background-color: bisque;   
+body {
+    background-color: bisque;
 }
 
-a:visited{
+a:visited {
     color: black;
+}
+
+#dehghan {
+    color: burlywood;
 }
