@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+.vafa {
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+}
+.icons {
+    text-align: center;
+    font-size: 45px;
+}
+.icons>i:hover {
+    font-size: 50px;
+}
+
+body{
+    background-color: bisque;   
+}
+
+i:visited{
+    color: black;
+}
