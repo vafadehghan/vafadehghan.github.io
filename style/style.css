@@ -21,10 +21,19 @@ a {
     color: black;
 }
 
-a:hover{
-    color: gray ;
-}
+a:hover {
+    color: gray;
+    text-decoration: none
+    }
 
 #dehghan {
     color: burlywood;
 }
+
+#contact {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+contact:hover {}
