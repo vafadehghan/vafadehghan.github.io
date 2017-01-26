@@ -37,3 +37,22 @@ a:hover {
 }
 
 contact:hover {}
+
+.dropdown {
+	text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    display: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
