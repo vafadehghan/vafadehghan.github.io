@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.vafa {
+    text-align: center;
+    margin-top: 10%;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    color: cornsilk;
+    letter-spacing: 1px;
+}
+
+.icons {
+    text-align: center;
+    font-size: 45px;
+}
+
+body {
+    background-color: bisque;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: none
+    }
+
+#dehghan {
+    color: burlywood;
+}
+
+#contact {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+
+contact:hover {}
+
+.dropdown {
+	text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+	text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+    display: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.project {
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+.triangle{
+  border-style: solid;
+  border-width: thick;
+}
+.projectTitle{
+  font-family: 'Quicksand', sans-serif;
+  color: #87adde;
+  text-transform: uppercase;
+  text-align: center;
+}
