@@ -56,3 +56,26 @@ contact:hover {}
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.project {
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin-right: 20%;
+  margin-left: 20%;
+
+
+
+
+}
+.triangle{
+  border-style: solid;
+  border-width: thick;
+}
+.projectTitle{
+  font-family: 'Quicksand', sans-serif;
+  color: #87adde;
+  text-transform: uppercase;
+  text-align: center;
+}
