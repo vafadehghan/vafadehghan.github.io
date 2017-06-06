@@ -51,7 +51,10 @@ header{
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     padding-top: 2vh;
+}
 
+hr{
+    width: 75%;
 }
 .chesstitle{
     font-family: 'Josefin Sans', sans-serif;
