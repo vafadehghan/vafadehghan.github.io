@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body{
+    background-color: rgba(247, 240, 225, 0.3);
+}
+.name{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.developer{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.nameimg{
+    width: 10%;
+    display: block;
+    margin: auto;
+}
+
+.icons {
+    text-align: center;
+    font-size: 50px;
+}
+
+.icons a {
+    color: black;
+}
+
+header{
+    margin-top: 10vh;
+}
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+}
+.myFridge{
+    display: block;
+    margin: auto;
+}
+.chess{
+    display: block;
+    margin: auto;
+    margin-bottom: 10vh;
+}
+
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 5vh;
+    padding-top: 10vh;
+    text-align: center;
+}
+@media screen and (max-width: 1080px) {
+    .languages svg {
+        display: none;
+    }
+}
+.languages{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.languages svg{
+    display:inline-block;
+    text-align:center;
+    width: 10%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+}
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
