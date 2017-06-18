@@ -18,7 +18,16 @@ body{
     display: block;
     margin: auto;
 }
-
+.info{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 20vh;
+    text-align: center;
+}
+.myFridgeinfo{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10vh;
+    text-align: center;
+}
 .icons {
     text-align: center;
     font-size: 50px;
@@ -28,6 +37,12 @@ body{
     color: black;
 }
 
+.toolsUsed{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 4vh;
+    text-align: center;
+
+}
 header{
     margin-top: 10vh;
 }
