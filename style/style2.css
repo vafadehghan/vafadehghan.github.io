@@ -32,7 +32,19 @@ body{
     text-align: center;
     font-size: 50px;
 }
-
+.chessInfo{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10vh;
+    text-align: center;
+}
+.smallHr{
+    width: 40%;
+}
+.emojiInfo{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 10vh;
+    text-align: center;
+}
 .icons a {
     color: black;
 }
