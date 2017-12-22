@@ -1,108 +1,132 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
-body{
+body {
     background-color: rgba(247, 240, 225, 0.3);
 }
-.name{
+
+.name {
     text-align: center;
     font-size: 50px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.developer{
+
+.developer {
     text-align: center;
     font-size: 30px;
     font-family: 'Josefin Sans', sans-serif;
 }
-.nameimg{
+
+.nameimg {
     width: 125px;
     display: block;
     margin: auto;
 }
-.info{
+
+.info {
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 20vh;
     text-align: center;
 }
-.myFridgeinfo{
+
+.myFridgeinfo {
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 10vh;
     text-align: center;
 }
+
 .icons {
+
     text-align: center;
     font-size: 50px;
 }
-.chessInfo{
+
+.chessInfo {
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 10vh;
     text-align: center;
 }
-.smallHr{
+
+.smallHr {
     width: 40%;
 }
-.emojiInfo{
+
+.emojiInfo {
     font-family: 'Josefin Sans', sans-serif;
     padding-top: 10vh;
     text-align: center;
 }
+
 .icons a {
+    text-decoration: none;
     color: black;
 }
 
-.toolsUsed{
+.toolsUsed {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 4vh;
     text-align: center;
 
 }
-header{
+
+header {
     margin-top: 10vh;
 }
 
-.title{
+.title {
     text-align: center;
     font-size: 30px;
     margin-top: 5vh;
     margin-bottom: 2vh;
 }
-.myFridge{
+
+.myFridge {
+    height: 25%;
+    width: 25%;
+    overflow: hidden;
     display: block;
     margin: auto;
+    margin-bottom: 10vh;
+
 }
-.chess{
+
+.chess {
     display: block;
     margin: auto;
     margin-bottom: 10vh;
 }
-.myFridgetitle{
+
+.myFridgetitle {
     font-family: 'Josefin Sans', sans-serif;
     text-align: center;
     padding-top: 2vh;
 }
 
-hr{
+hr {
     width: 75%;
 }
-.chesstitle{
+
+.chesstitle {
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 5vh;
     padding-top: 10vh;
     text-align: center
 }
+
 @media screen and (max-width: 1080px) {
     .languages svg {
         display: none;
     }
 }
-.languages{
+
+.languages {
     width: 100%;
     text-align: center;
     margin-bottom: 5vh;
 }
 
-.languages svg{
-    display:inline-block;
-    text-align:center;
+.languages svg {
+    display: inline-block;
+    text-align: center;
     width: 100px;
     margin-left: 2%;
     margin-right: 2%;
@@ -110,24 +134,46 @@ hr{
     margin-bottom: 5vh;
 
 }
-.typed-cursor{
+
+.typed-cursor {
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-@keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-webkit-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
-@-moz-keyframes blink{
-    0% { opacity:1; }
-    50% { opacity:0; }
-    100% { opacity:1; }
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
