@@ -17,7 +17,7 @@ body {
 
 .project-info {
   font-family: "Roboto", sans-serif;
-  padding-top: 10vh;
+  margin-top: 15vh;
   text-align: center;
 }
 
@@ -25,7 +25,6 @@ body {
   object-fit: contain;
   width: 35%;
   margin: auto;
-  margin-bottom: 15vh;
 }
 .project-title {
   font-family: "Roboto", sans-serif;
