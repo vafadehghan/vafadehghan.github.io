@@ -11,7 +11,12 @@
       rel="stylesheet"
     />
     <link rel="icon" type="image/png" href="icons/favicons/favicon.ico" />
-    <link rel="stylesheet" href="style/bootstrap.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style/style.css" />
     <link rel="stylesheet" href="style/hover-min.css" />
     <script
@@ -57,28 +62,34 @@
   <body>
     <div class="container">
       <header></header>
-
-      <div id="profile-header">
-        <!-- <img class="nameimg img-responsive" src="image/name.png" /> -->
-        <div id="name">Vafa Dehghan</div>
-        <div id="image-cropper">
-          <img id="profileImage" src="image/profile.jpg" />
+      <div class="row">
+        <div class="col-md-4">
+          <div id="profile-header">
+            <!-- <img class="nameimg img-responsive" src="image/name.png" /> -->
+            <div id="name">Vafa Dehghan</div>
+            <img
+              id="profile-image"
+              class="img-fluid d-block"
+              src="image/circle-cropped.png"
+            />
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div id="about-section">
+            <p>Hello, My name is Vafa.</p>
+            <p>I'm a programmer from Vancouver, British Columbia.</p>
+            <p>
+              I have experience with Java, C/C++, Python, Javascript, HTML, CSS,
+              git, and Android Studio.
+            </p>
+            <p>
+              Here are some <a href="projects.html">projects </a> I've worked
+              on.
+            </p>
+            <p>Here is my <a href="Resume/resume2.pdf">resume.</a></p>
+          </div>
         </div>
       </div>
-
-      <div id="about-section">
-        <p>Hello, My name is Vafa.</p>
-        <p>I'm a programmer from Vancouver, British Columbia.</p>
-        <p>
-          I have experience with Java, C/C++, Python, Javascript, HTML, CSS,
-          git, and Android Studio.
-        </p>
-        <p>
-          Here are some <a href="projects.html">projects </a> I've worked on.
-        </p>
-        <p>Here is my <a href="Resume/resume2.pdf">resume.</a></p>
-      </div>
-
       <div id="contact-info">
         <hr />
         <div id="icons">

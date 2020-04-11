@@ -2,35 +2,19 @@ body {
   background-color: rgba(247, 240, 225, 0.3);
 }
 .container {
-  margin-top: 15vh;
+  margin-top: 10vh;
 }
-#image-cropper {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  position: relative;
-  overflow: hidden;
-  margin-right: -2vw;
-}
-#profileImage {
-  height: 100%;
-  width: auto;
+#profile-image{
+  margin: auto;
 }
 #profile-header {
-  float: right;
   position: relative;
-  margin-bottom: 4vh;
 }
 #name {
   margin-bottom: 1vh;
   font-size: 50px;
   text-align: center;
   font-family: "Roboto", sans-serif;
-}
-.nameimg {
-  width: 125px;
-  display: block;
-  margin: auto;
 }
 #about-section {
   font-family: "Playfair Display", serif;
@@ -39,7 +23,6 @@ body {
   margin-top: 20vh;
 }
 #contact-info {
-  
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
