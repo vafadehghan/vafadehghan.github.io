@@ -1,77 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-.vafa {
-    text-align: center;
-    margin-top: 10%;
-    text-transform: uppercase;
-    font-family: 'Quicksand', sans-serif;
-    color: cornsilk;
-    letter-spacing: 1px;
-}
-
-.icons {
-    text-align: center;
-    font-size: 45px;
-}
-
 body {
-    background-color: bisque;
+  background-color: rgba(247, 240, 225, 0.3);
 }
-
-a {
-    color: black;
+.container-fluid {
+  margin-top: 15vh;
 }
-
-a:hover {
-    color: gray;
-    text-decoration: none
-    }
-
-#dehghan {
-    color: burlywood;
+#image-cropper {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
 }
-
-#contact {
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
+#profileImage {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
-
-contact:hover {}
-
-.dropdown {
-	text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
-    position: relative;
-    display: inline-block;
+#profile-header {
+  float: right;
+  margin-right: 8vh;
+  position: relative;
 }
-
-.dropdown-content {
-	text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    text-transform: uppercase;
-    display: none;
-
+#name {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.nameimg {
+  width: 125px;
+  display: block;
+  margin: auto;
 }
-
-.project {
-  margin-top: 5%;
+#about-section {
+  font-family: "Playfair Display", serif;
   text-align: center;
-  font-family: 'Quicksand', sans-serif;
-  margin-right: 20%;
-  margin-left: 20%;
+  font-size: 20px;
+  margin-top: 15vh;
 }
-.triangle{
-  border-style: solid;
-  border-width: thick;
-}
-.projectTitle{
-  font-family: 'Quicksand', sans-serif;
-  color: #87adde;
-  text-transform: uppercase;
+#contact-info {
+  
   text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+#icons {
+  text-align: center;
+  font-size: 50px;
+}
+#icons a {
+  text-decoration: none;
+  color: black;
+}
+.smallHr {
+  width: 40%;
+}
+hr {
+  width: 70%;
 }
