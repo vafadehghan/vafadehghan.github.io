@@ -24,7 +24,7 @@ function doEmoji(emojiArr) {
     const length = emojiArr.length;
     const textVal = document.getElementById("text");
     const FinalText = document.getElementById("FinalText");
-    textVal = textVal.value.split(" ");
+    const textVal = textVal.value.split(" ");
 
     //Parsing through the users text
     FinalText.innerHTML = textVal.split(' ').map((val) => {
