@@ -1,109 +1,61 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="google-site-verification"
-      content="5QE8KGEUodXkoaagONcPgtPjq6_MCrXTpPFcOX2833c"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/png" href="icons/favicons/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/hover-min.css" />
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Emoji🍝 Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script
-      src="https://kit.fontawesome.com/7b9bc248dc.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
-    />
-    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.2.3/typeit.min.js"></script>
-    <script>
-      (function (i, s, o, g, r, a, m) {
-        i["GoogleAnalyticsObject"] = r;
-        (i[r] =
-          i[r] ||
-          function () {
-            (i[r].q = i[r].q || []).push(arguments);
-          }),
-          (i[r].l = 1 * new Date());
-        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m);
-      })(
-        window,
-        document,
-        "script",
-        "https://www.google-analytics.com/analytics.js",
-        "ga"
-      );
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+    <script src="https://cdn.emojidex.com/scripts/javascript/emojidex.min.js"></script>
 
-      ga("create", "UA-90297917-1", "auto");
-      ga("send", "pageview");
-    </script>
+</head>
 
-    <title>
-      Vafa Dehghan
-    </title>
-  </head>
 
-  <body>
-    <div class="container">
-      <header></header>
-      <div class="row">
-        <div class="col-md-4">
-          <div id="profile-header">
-            <!-- <img class="nameimg img-responsive" src="image/name.png" /> -->
-            <div id="name">Vafa Dehghan</div>
-            <img
-              id="profile-image"
-              class="img-fluid d-block"
-              src="image/circle-cropped.png"
-            />
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div id="about-section">
-            <p>Hello, my name is Vafa.</p>
-            <p>I'm a programmer from Vancouver, British Columbia.</p>
-            <p>
-              I have experience with Java, C/C++, Python, Javascript, HTML, CSS,
-              git, and Android Studio.
-            </p>
-            <p>
-              Here are some <a href="projects.html">projects </a> I've worked
-              on.
-            </p>
-            <p>Here is my <a href="Resume/resume2.pdf">resume.</a></p>
-          </div>
-        </div>
-      </div>
-      <div id="contact-info">
-        <hr />
-        <div id="icons">
-          <a href="https://github.com/vafadehghan">
-            <i class="fab fa-github-square hvr-grow"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/vafad/">
-            <i class="fab fa-linkedin hvr-grow"></i>
-          </a>
-          <a href="mailto:vafa@dehghan.ca">
-            <i class="fas fa-envelope hvr-grow"></i>
-          </a>
-        </div>
-      </div>
+<!-- Add your site or application content here -->
+<div class="container">
+    <h1 class="title">🍝</h1>
+    <h2 class="title">EmojiPasta Generator</h2>
+
+    <div class="form-group">
+        <textarea id="text" class="form-control" style="display: block; margin: auto; width: 100%" rows="10"></textarea>
     </div>
-  </body>
+
+    <div class="centeredElements">
+        <button id="emojiBtn" class="button btn btn-primary" onclick="emojify()">Emojify</button>
+        <br>
+        <button id="yeezyBtn" class="button btn btn-primary" onclick="yeezyfy()">Yeezy Yeezy</button>
+
+        <div id="FinalText"></div>
+
+        <button id="copyBtn" data-clipboard-target="#FinalText" class="button btn btn-primary">Copy to Clipboard
+        </button>
+
+        <button id="clearBtn" class="button btn btn-primary">Clear</button>
+    </div>
+</div>
+
+<script src="js/main.js">
+</script>
+</body>
 </html>
