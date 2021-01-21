@@ -47,7 +47,7 @@ function doEmoji(emojiArr) {
 }
 
 function emojify() {
-    doEmoji(emojiArr);
+    doEmoji(allEmojis);
 }
 
 //Takes the text from the user and injects 0-3 "yeezy-based" emojis in randomly selected places
