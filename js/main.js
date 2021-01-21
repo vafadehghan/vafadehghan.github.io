@@ -27,7 +27,7 @@ function doEmoji(emojiArr) {
 
 
     //Parsing through the users text
-    FinalText.innerHTML = textVal.split(' ').map((val) => {
+    FinalText.innerHTML = textVal.map((val) => {
         const random = (Math.floor(Math.random() * (length)));
         const random2 = (Math.floor(Math.random() * (2)));
         const random3 = (Math.floor(Math.random() * (3)));
